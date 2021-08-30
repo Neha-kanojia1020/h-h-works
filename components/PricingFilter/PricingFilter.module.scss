@@ -1,0 +1,33 @@
+.filter-button {
+  height: 48px;
+  width: 124px;
+  left: 0px;
+  top: 32px;
+  border-radius: 48px;
+  padding: 0px 32px 0px 32px !important;
+}
+
+.selectmain {
+  position: relative;
+
+  select {
+    background: #323232;
+    color: #8a8a8a;
+    appearance: none;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    height: 11.6px;
+    width: 11.6px;
+    border-right: solid 1.5px #8a8a8a;
+    border-bottom: solid 1.5px #8a8a8a;
+    right: 28.5px;
+    top: 18.4px;
+    border-radius: 0px;
+    position: absolute;
+    transform: rotateZ(45deg);
+    visibility: inherit;
+  }
+}

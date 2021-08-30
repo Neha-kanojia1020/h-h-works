@@ -1,0 +1,18 @@
+.project-brief {
+  max-width: max-content;
+  margin-right: 75px;
+}
+
+@media screen and (max-width: 1280px) {
+  .project-brief {
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+
+  .project-brief:last-child {
+    margin-bottom: 0px;
+  }
+}
+.project-brief-color {
+  color: #636363;
+}

@@ -1,0 +1,13 @@
+.clients-imgs {
+  min-height: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 400px) {
+  .clients-imgs {
+    min-height: initial;
+    display: unset;
+  }
+}

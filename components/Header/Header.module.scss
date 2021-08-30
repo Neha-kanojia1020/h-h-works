@@ -1,0 +1,67 @@
+@import '../../styles/colors.scss';
+
+.header {
+  background: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-fixed {
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+
+.headerBlur {
+  background: $blurcolor;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px 0 rgb(0 0 0 / 10%);
+}
+
+.header,
+.header .header-style {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.header .header-style {
+  padding: 48px 0 24px;
+}
+
+.headerBlur .header-style {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-blur,
+.header-fixed {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.contact-button {
+  line-height: 23px;
+  height: 40px;
+  width: 93px;
+  left: 16px;
+  top: 0px;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .headerHeight {
+    height: 88px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .header-style {
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    padding: 24px 32px;
+  }
+}

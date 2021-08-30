@@ -1,0 +1,212 @@
+.pricingCard {
+  box-shadow: 0px 56px 56px rgba(0, 0, 0, 0.08);
+  transform: translateY(-80px);
+
+  @media screen and (max-width: 1024px) {
+    transform: translate(0px, -66px);
+  }
+  @media screen and (max-width: 1023px) {
+    transform: translate(-32px, 6px);
+  }
+
+  &__packages {
+    input {
+      &:checked {
+        & + label {
+          &::before {
+            background-color: #34fbd5;
+            border-color: transparent;
+          }
+
+          &:after {
+            transform: rotate(-45deg) scale(1);
+          }
+        }
+      }
+    }
+
+    label {
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0px 4px;
+        width: 20px;
+        height: 20px;
+        transition: transform 0.28s ease;
+        border-radius: 3px;
+        border: 2px solid #000000;
+
+        @media screen and (max-width: 1024px) {
+          top: -10px;
+        }
+      }
+      &::after {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 5px;
+        border-bottom: 2px solid #000000;
+        border-left: 2px solid #000000;
+        transform: rotate(-45deg) scale(0);
+        transition: transform ease 0.25s;
+        will-change: transform;
+        position: absolute;
+        top: 5.8px;
+        left: 9px;
+
+        @media screen and (max-width: 1024px) {
+          top: -4.2px;
+          left: 10px;
+        }
+      }
+    }
+  }
+
+  &__content {
+    //flex: 0 0 80%;
+    width: 76.9%;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+    &__price {
+      &__left {
+        span {
+          color: #636363;
+        }
+      }
+
+      &__right {
+        right: 0px;
+        top: 0px;
+        height: 36px;
+
+        &::before {
+          display: block;
+          margin-left: 40px;
+          height: 9px;
+          width: 9px;
+          border-right: solid 2px #000000;
+          border-bottom: solid 2px #000000;
+          border-radius: 0px;
+          transform: rotateZ(45deg);
+          content: '';
+          position: absolute;
+          right: 38px;
+          top: 14px;
+          pointer-events: none;
+
+          @media screen and (max-width: 1024px) {
+            right: 14px;
+            top: 12px;
+          }
+        }
+
+        select {
+          width: 104px;
+          background: #f7f7f7;
+          appearance: none;
+
+          @media screen and (max-width: 1024px) {
+            width: 97px;
+          }
+        }
+
+        @media screen and (max-width: 1024px) {
+          top: 32px;
+          right: 32px;
+        }
+      }
+    }
+  }
+
+  &__Options {
+    & > div {
+      color: #636363;
+    }
+  }
+
+  &__radio {
+    position: absolute;
+    opacity: 1;
+    width: 56px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 6px 6px 6px 8px;
+    background-color: transparent;
+    appearance: none;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    z-index: 99;
+
+    @media screen and (max-width: 768px) {
+      margin-right: 0px;
+      width: 77px;
+    }
+
+    &:checked {
+      & + div {
+        background-color: #34fbd5;
+        border: none;
+
+        &::after {
+          transform: translateX(30px);
+          background: #000000;
+
+          @media screen and (max-width: 768px) {
+            transform: translateX(46px);
+          }
+        }
+      }
+    }
+
+    & + div {
+      width: 56px;
+      height: 26px;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 10px;
+      border: 1px solid #636363;
+      box-sizing: border-box;
+      border-radius: 4px;
+      padding: 6px 6px 6px 8px;
+      background-color: transparent;
+      transition: all 0.1s ease-in-out;
+      cursor: pointer;
+      position: relative;
+
+      @media screen and (max-width: 768px) {
+        display: block;
+        margin-bottom: 10px;
+        width: 77px;
+        margin-right: 0px;
+      }
+
+      &::after {
+        background: #636363;
+        border-radius: 2px;
+        width: 12px;
+        height: 12px;
+        transition: all 0.1s ease-in-out;
+        content: '';
+        display: block;
+      }
+    }
+  }
+
+  hr {
+    background: #e2e2e2;
+    height: 1px;
+    margin-bottom: 40px;
+
+    @media screen and (max-width: 768px) {
+      margin-bottom: 24px;
+    }
+  }
+}

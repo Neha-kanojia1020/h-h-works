@@ -1,0 +1,30 @@
+.selectwrapper {
+  &::after {
+    content: '';
+    display: block;
+    height: 11.6px;
+    width: 11.6px;
+    border-right: solid 1.5px #000000;
+    border-bottom: solid 1.5px #000000;
+    right: 28.5px;
+    top: 15.4px;
+    border-radius: 0px;
+    position: absolute;
+    transform: rotateZ(45deg);
+    visibility: inherit;
+  }
+}
+
+.select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+/* For IE10 */
+.select::-ms-expand {
+  display: none;
+}
+
+.select:focus-visible {
+  outline: none;
+}
