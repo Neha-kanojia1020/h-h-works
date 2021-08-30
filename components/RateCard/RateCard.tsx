@@ -25,7 +25,7 @@ const RateCard = () => {
           </div>
           <div className="hidden xl:block rate-img mt-5 xl:mt-0">
             <Image
-              src="/assets/services-odd1.svg"
+              src="/assets/services-odd1.webp"
               loading="eager"
               alt="logo"
               height={460}
@@ -36,7 +36,7 @@ const RateCard = () => {
           </div>
           <div className="block xl:hidden rate-img mt-5 xl:mt-0">
             <Image
-              src="/assets/services-odd1.svg"
+              src="/assets/services-odd1.webp"
               loading="eager"
               alt="logo"
               height={460}

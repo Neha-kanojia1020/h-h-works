@@ -38,7 +38,7 @@ const ScheduleMeeting = () => {
 
             <div className="schedule-img">
               <Image
-                src="/assets/schedule-img.svg"
+                src="/assets/schedule-img.webp"
                 layout="responsive"
                 height={500}
                 width={500}

@@ -11,7 +11,7 @@ const InsightsForm = () => {
               objectFit="cover"
               width={400}
               height={300}
-              src="/assets/home/hero-img.png"
+              src="/assets/home/hero-img.webp"
               alt="cartoon of people standing in a lab"
               quality={100}
               loading="eager"

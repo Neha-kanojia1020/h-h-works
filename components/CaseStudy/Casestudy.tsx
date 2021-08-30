@@ -43,7 +43,7 @@ const CaseStudy = () => {
           <div className="col-1">
             <div className="mobile-col block xl:hidden">
               <Image
-                src="/assets/download-case.png"
+                src="/assets/download-case.webp"
                 layout="responsive"
                 height={500}
                 width={611}
@@ -121,7 +121,7 @@ const CaseStudy = () => {
           </div>
           <div className="col-2 hidden xl:block">
             <Image
-              src="/assets/download-case.png"
+              src="/assets/download-case.webp"
               layout="fixed"
               height={430}
               width={577}

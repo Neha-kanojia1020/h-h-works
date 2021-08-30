@@ -24,7 +24,7 @@ const Clients = (props: any) => {
           <div className="flex items-center justify-center mt-4 sm:mt-20">
             <div className="p-10">
               <Image
-                src="/assets/client/Client-1.png"
+                src="/assets/client/Client-1.webp"
                 height={96}
                 width={104}
                 quality={100}
@@ -47,7 +47,7 @@ const Clients = (props: any) => {
           >
             <div className="p-10">
               <Image
-                src="/assets/client/Client-3.png"
+                src="/assets/client/Client-3.webp"
                 height={40}
                 width={166}
                 quality={100}
@@ -56,7 +56,7 @@ const Clients = (props: any) => {
             </div>
             <div className="p-10">
               <Image
-                src="/assets/client/Client-4.png"
+                src="/assets/client/Client-4.webp"
                 height={64}
                 width={71}
                 quality={100}
@@ -67,7 +67,7 @@ const Clients = (props: any) => {
           <div className="flex items-center justify-center">
             <div className="p-10">
               <Image
-                src="/assets/client/client-5.png"
+                src="/assets/client/client-5.webp"
                 height={50}
                 width={135}
                 quality={100}
@@ -76,7 +76,7 @@ const Clients = (props: any) => {
             </div>
             <div className="p-10">
               <Image
-                src="/assets/client/Client-6.png"
+                src="/assets/client/Client-6.webp"
                 height={64}
                 width={170}
                 quality={100}

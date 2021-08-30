@@ -12,7 +12,7 @@ const ClientsServicePage = () => {
             <div className="p-10 pr-16">
               {
                 <Image
-                  src={'/assets/client/Client-1.png'}
+                  src={'/assets/client/Client-1.webp'}
                   height={96}
                   width={104}
                   quality={100}
@@ -36,7 +36,7 @@ const ClientsServicePage = () => {
             <div className="p-10 pr-16">
               {
                 <Image
-                  src={'/assets/client/Client-3.png'}
+                  src={'/assets/client/Client-3.webp'}
                   height={40}
                   width={166}
                   quality={100}
@@ -47,7 +47,7 @@ const ClientsServicePage = () => {
             <div className="p-10">
               {
                 <Image
-                  src={'/assets/client/Client-4.png'}
+                  src={'/assets/client/Client-4.webp'}
                   height={64}
                   width={71}
                   quality={100}
@@ -63,7 +63,7 @@ const ClientsServicePage = () => {
             <div className="p-10 pr-16">
               {
                 <Image
-                  src={'/assets/client/client-5.png'}
+                  src={'/assets/client/client-5.webp'}
                   height={50}
                   width={135}
                   quality={100}
@@ -74,7 +74,7 @@ const ClientsServicePage = () => {
             <div className="p-10">
               {
                 <Image
-                  src={'/assets/client/Client-6.png'}
+                  src={'/assets/client/Client-6.webp'}
                   height={64}
                   width={170}
                   quality={100}

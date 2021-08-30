@@ -8,7 +8,7 @@ export default function AboutPagethirdSection() {
           <div className="md:hidden relative aspect-w-4 aspect-h-0 xs:aspect-w-16 xs:aspect-h-0 w-full">
             <Image
               quality={100}
-              src="/assets/bg.png"
+              src="/assets/bg.webp"
               layout="fill"
               objectFit="fill"
               objectPosition="right"
@@ -21,7 +21,7 @@ export default function AboutPagethirdSection() {
           <div className="hidden aboutImage md:block top-0 left-0 w-1/2 h-full">
             <Image
               quality={100}
-              src="/assets/bg.png"
+              src="/assets/bg.webp"
               objectFit="cover"
               layout="fill"
               objectPosition="right"

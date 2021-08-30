@@ -10,7 +10,7 @@ const ServicesFact = ({ service }: any) => {
         <div
           className="px-10 pt-10 block sm:hidden"
           style={{
-            backgroundImage: 'url(/assets/services-img.png)',
+            backgroundImage: 'url(/assets/services-img.webp)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
@@ -27,7 +27,7 @@ const ServicesFact = ({ service }: any) => {
         <div
           className="px-10 pt-10 hidden sm:block"
           style={{
-            backgroundImage: 'url(/assets/services-img.png)',
+            backgroundImage: 'url(/assets/services-img.webp)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',

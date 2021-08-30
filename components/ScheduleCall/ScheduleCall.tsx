@@ -47,7 +47,7 @@ const ScheduleCall = (props: any) => {
               } block sm:hidden`}
             >
               <Image
-                src="/assets/schedule-img.svg"
+                src="/assets/schedule-img.webp"
                 layout="responsive"
                 height={props.from == 'contact' ? 293 : 500}
                 width={props.from == 'contact' ? 311 : 500}
@@ -81,7 +81,7 @@ const ScheduleCall = (props: any) => {
 
             <div className="hidden sm:block">
               <Image
-                src="/assets/schedule-img.svg"
+                src="/assets/schedule-img.webp"
                 layout="responsive"
                 height={437}
                 width={463}

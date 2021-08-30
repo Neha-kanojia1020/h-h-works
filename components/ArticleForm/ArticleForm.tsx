@@ -49,7 +49,7 @@ const ArticleForm = () => {
           </h1>
           <div className="mb-10 flex items-start">
             <Image
-              src="/assets/kaj.png"
+              src="/assets/kaj.webp"
               width={100}
               height={100}
               quality={100}
