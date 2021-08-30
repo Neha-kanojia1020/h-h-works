@@ -23,7 +23,7 @@ export default function MobileNav(props: IMobileNavProps) {
         <Link href="/">
           <a className="pointer">
             <Image
-              src="/assets/Logo-White.webp"
+              src="/assets/Logo-White.svg"
               alt="logo"
               height="24px"
               width="155px"
@@ -32,7 +32,7 @@ export default function MobileNav(props: IMobileNavProps) {
         </Link>
         <span onClick={props.onClick} className={styles['cross-sign']}>
           <Image
-            src={'/assets/crossicon.webp'}
+            src={'/assets/crossicon.svg'}
             width={16}
             height={16}
             alt=""
