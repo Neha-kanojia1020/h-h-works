@@ -7,7 +7,7 @@ const AboutBanner = () => {
       <div
         className={`${(styles as any)['about-banner-img']}  px-10 pt-10`}
         style={{
-          backgroundImage: 'url(/assets/about.png)',
+          backgroundImage: 'url(/assets/about.webp)',
         }}
       ></div>
       <div className="container mx-auto">

@@ -51,7 +51,7 @@ const ServiceOdd = (props: any) => {
               </div>
             </div>
           </div>
-          <div className=" hidden relative sm:block">
+          <div className="hidden relative sm:block">
             {props.img && (
               <Image
                 src={props.img}

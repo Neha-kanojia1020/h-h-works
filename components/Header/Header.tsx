@@ -79,7 +79,7 @@ function Header(props: IHeaderProps) {
                 <Link href="/">
                   <a className="pointer">
                     <Image
-                      src={`/assets/Logo${!dark ? '-White' : '-Black'}.svg`}
+                      src={`/assets/Logo${!dark ? '-White' : '-Black'}.webp`}
                       alt="logo"
                       height="24px"
                       width="155px"
