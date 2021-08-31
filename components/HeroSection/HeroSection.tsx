@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import HeadingLarge from '../Headings/HeadingLarge'
 import Button from '../Buttons/Button'
-import heroImg  from '../../public/assets/home/hero-img.webp'
+import heroImg  from '../../public/assets/home/hero-img.png'
 
 export default function HeroSection() {
   return (
@@ -16,7 +16,7 @@ export default function HeroSection() {
             quality={10}
             layout="responsive"
             placeholder="blur"
-            blurDataURL="/assets/home/hero-img.webp"
+            blurDataURL="/assets/home/hero-img.png"
           />
         </div>
         <div className="inner">
@@ -40,7 +40,7 @@ export default function HeroSection() {
                  quality={10}
                  layout="responsive"
                  placeholder="blur"
-                 blurDataURL="/assets/home/hero-img.webp"
+                 blurDataURL="/assets/home/hero-img.png"
           />
         </div>
       </div>
