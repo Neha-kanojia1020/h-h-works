@@ -23,7 +23,7 @@ export default function MobileNav(props: IMobileNavProps) {
         <Link href="/">
           <a className="pointer">
             <Image
-              src="/assets/Logo-White.svg"
+              src="/assets/Logo-White.webp"
               alt="logo"
               height="24px"
               width="155px"
